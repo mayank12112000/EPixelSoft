@@ -161,30 +161,39 @@
         <h2 class="text-center my-5">Ready to take a free trial?</h2>
         <p class="page2-p text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore</p>
-        <div class="container login-box px-5">
-            <h5 class="my-5">SignUp for a free account</h5>
-            <div class="row">
-                <div class="col-sm-6">
-                    <input type="text" placeholder="First name">
-                </div>
-                <div class="col-sm-6">
-                    <input type="text" placeholder="Last name">
-                </div>
+            <div class="container login-box px-5">
+                <h5 class="my-5">SignUp for a free account</h5>
+                <form id="signupForm" novalidate>
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <input id="firstName" class="form-control" type="text" placeholder="First name">
+                            <span id="firstNameError" class="error-message"></span>
+                        </div>
+                        <div class="col-sm-6">
+                            <input id="lastName" class="form-control" type="text" placeholder="Last name">
+                            <span id="lastNameError" class="error-message"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <input id="email" class="form-control" type="email" placeholder="Email">
+                            <span id="emailError" class="error-message"></span>
+                        </div>
+                        <div class="col-sm-6">
+                            <input id="phone" class="form-control" type="number" placeholder="Phone number">
+                            <span id="phoneError" class="error-message"></span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input id="password" class="form-control" type="password" placeholder="Create password">
+                        <span id="passwordError" class="error-message"></span>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Register</button>
+                </form>
             </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="col-sm-6">
-                    <input type="number" placeholder="Phone number">
-                </div>
-            </div>
-            <input class="password" type="password" placeholder="Create password"> <br>
-            <button class="btn btn-primary">Register</button>
-        </div>
     </section>
     <!-- Footer -->
-    <footer class="pt-5 pb-3 px-5 ">
+    <footer class="pt-5 pb-3 px-5 mt-5">
         <div class="row mb-5">
             <div class="col-sm-5">
                 <h3>Logo</h3>
@@ -243,6 +252,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

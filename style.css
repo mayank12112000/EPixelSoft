@@ -86,9 +86,10 @@ p {
     border-color: #18A0FB;
 }
 .login-box{
-    height: 25rem;
+    min-height: 25rem;
     width: 38rem;
     border: 1px gray solid;
+    padding-bottom: 10px;
 }
 input{
     height: 2.5rem;
@@ -135,4 +136,12 @@ footer .icon{
     color: white;
     display: flex;
     
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+.login-box {
+    max-width: 500px;
+    margin: 0 auto;
 }
