@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; /* Bold */
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; /* Regular */
+}
+
+/*navbar */
+.navbar{
+    height: 100px;
+}
+/* Hero Section Styles */
+
+.hero-section {
+    background-image: url('https://s3-alpha-sig.figma.com/img/9a0f/235b/083f8069df6b70482aa1c27088a8f0c5?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NRl05RlNAqtbF7wQZsnQfzzmYH0wZn1gU~qAfSzq~YNsQ6fpN4LG-Qpv0kQqaBeKlTMg~SzMeSLJeXYDimRhVWeOR-xHZBk9Utp4b~Op5ZtQm3x5xRk9tP-wwqhlDvFF4y3Azq~ybdOmGFyY~ZJpL1V8hq0OcwrXlftKr5ydI8GlBzqQsHAkxY~l2pDowE7eDXaaqdc6tSeg54FJWF9FDBGnEpbVCUEiue3jKsvVN3Nzcj2qXQBjKUD6iG3Px3ylEI5YNgcqnWM1WVkpHaFlK3I9i45hQo22tD~W7kpZJhFmBJsPoSEBdmrnh~suIvt1Mcclp2sg8h8czFhjU8-YSQ__');
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-section .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+/* Features Section Styles */
+.features-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.heading{
+    padding-top: 16rem;
+}
+.features-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.snap-grid{
+    padding-right: 5rem;
+}
+/*  */
+.btn{
+    background-color: #18A0FB  !important ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+/* page 2 */
+.page2-p{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size:2.5rem;
+    font-weight: 400;
+}
+
+.page2-img {
+    background-image: url("https://s3-alpha-sig.figma.com/img/a176/1b0f/cca829be2ec39306f4a3d85d585418f9?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YOAew77ue~AyDd0vtTO5JbBLUfxEkfg45ld43fHXTsCMTDrnGR2-am57keD11iFl1FWX6~Z~R-M-~DF~R0zKhCfHMDBfA-ekUXFgFJJyayWiN8fzxLgBOa77pTCx~eYpaJqsRRFbp6QrMJsX29Bdh2Q8zC81ph4RsPEvZCFzVZ7LvFoIw7u~p0C6HXOukrER9PcIrGwAIUg7DpRAHhAYq~TEkn7WR3jQNz6ol~onF8JiAajDmXGd6bJEqNwqAULKliN9L~TpCujJgH3deFFESydHh0x1dca2Co89bRgetMdr72t2VG-V9hrK9Jq9~FdKofiexyYYmM7HjHKjyC~dLQ__");
+    background-size: cover;
+    height: 37rem;
+    color: white;
+    padding: 2.25rem 0;
+
+}
+.page2-sections{
+    padding-right: 2.25rem;
+}
+#support{
+    margin: 3rem;
+}
+.btn-outline-primary{
+    background-color: white !important;
+    border-color: #18A0FB;
+}
+.login-box{
+    height: 25rem;
+    width: 38rem;
+    border: 1px gray solid;
+}
+input{
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.password{
+    width: 92.5%;
+}
+footer{
+    background-color: #000000CC;
+    color : white;
+    
+}
+footer p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+footer hr{
+    /* border-color: white; */
+    border : 0.3px solid white
+}
+footer button{
+    width: 130px;
+height: 40px;
+top: 60px;
+left: 1470px;
+gap: 0px;
+opacity: 0px;
+
+}
+.login-footer{
+    background: #FFFFFF !important;
+    border: 1px solid #18A0FB;
+    color: #18A0FB;
+
+}
+footer .icon{
+    height: 2.75rem;
+    width: 2.75rem;
+    border-radius: 50%;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    
+}
