@@ -21,6 +21,8 @@ p {
 /*navbar */
 .navbar{
     height: 100px;
+    display: flex !important;
+    justify-content: space-evenly !important;
 }
 /* Hero Section Styles */
 
